@@ -1,3 +1,6 @@
+
+### [Click here to Chinese Version](./README-CN.md)
+
 OS: ubuntu 18.04<br>
 ROS: Melodic<br>
 
@@ -18,7 +21,7 @@ Here we copy some of the proceed below:<br>
 3. Installation
     ```
     sudo apt-get update
-    sudo apt-get install ros-kinetic-desktop-full
+    sudo apt-get install ros-melodic-desktop-full
     ```
 4. Initialize rosdep
     ```
@@ -27,7 +30,7 @@ Here we copy some of the proceed below:<br>
     ```
 5. Environment setup
     ```
-    echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
     source ~/.bashrc
     ```
 
