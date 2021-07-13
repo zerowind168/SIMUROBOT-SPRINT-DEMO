@@ -68,6 +68,7 @@ void pos_callback_ser(const tf2_msgs::TFMessage& message){
         cout << "Finished part of the full game" << endl;
     }
     if(Referee::getInstance().full_finish_judge()){
+        cout << "Finished the full game" << endl;
         int temp_client_id = VrepControl::getInstance().get_client_id();
         simxStopSimulation(temp_client_id, simx_opmode_oneshot);
     }
